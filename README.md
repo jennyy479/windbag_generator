@@ -1,6 +1,6 @@
-# 幹話生產器 v1.0
+# 幹話生產器
 
-This is a bullshit website project v1.0.
+This is a windbag website project for sad corporate slave.
 
 it is build with Node.js, Express, handlebars, body-parser
 
@@ -23,6 +23,7 @@ after instal, run:
 ```bash
 npm run dev
 ```
-now you are free to check the project website at "localhost:3000" on the browser 
+feel free to check the project website at "localhost:3000" on the browser 
 
 ## Contributor
+jennyy479
