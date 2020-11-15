@@ -1,0 +1,55 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">幹話產生器</a>
+</nav>
+<h3 class="text-center mt-3">你想對誰說幹話？</h1>
+
+  <div class="container">
+    <form method="POST" action="/">
+      <div class="row d-flex mt-5">
+        <div class="col-4">
+          <img src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5668/angry-developer.jpg" width="400"
+            height="300" alt="engineer-photo">
+          <div class="d-flex justify-content-center mt-3">
+            <div class="custom-control custom-checkbox ">
+              <input type="radio" name="career" value="engineer" id="engineer">
+              <label for="engineer">工程師</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-4">
+          <img src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5667/angry-designer.jpg" width="400"
+            height="300" alt="designer-photo">
+          <div class="d-flex justify-content-center mt-3">
+            <div class="custom-control custom-checkbox">
+              <input type="radio" name="career" value="designer" id="designer">
+              <label for="designer">設計師</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-4">
+          <img src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5669/angry-founder.jpg" width="400"
+            height="300" alt="entrepreneur-photo">
+          <div class="d-flex justify-content-center mt-3">
+            <div class="custom-control custom-checkbox">
+              <input type="radio" name="career" value="entrepreneur" id="entrepreneur">
+
+              <label for="entrepreneur">創業家</label>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="column ">
+        {{!-- show password --}}
+        {{#if password }}
+        <div class="alert alert-dark mt-2" role="alert">
+          <span>你的幹話是：</span><code>{{password}}</code>
+        </div>
+        {{/if}}
+
+        <button class="btn btn-success" type="submit">產生幹話</button>
+      </div>
+    </form>
