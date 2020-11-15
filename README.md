@@ -13,7 +13,7 @@ it is build with Node.js, Express, handlebars, body-parser
 ## Install
 open terminal and run the following command:
 ```bash
-git clone https://github.com/Subaruuuu/bullShitGenerator.git
+git clone https://github.com/jennyy479/windbag_generator.git
 ```
 enter the project file and run:
 ```bash
