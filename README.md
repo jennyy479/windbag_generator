@@ -2,7 +2,7 @@
 
 This is a windbag website project for sad corporate slave.
 
-it is build with Node.js, Express, handlebars, body-parser
+It is build with Node.js, Express, handlebars, body-parser
 
 ## Enviroment require
 - nvm
