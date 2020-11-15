@@ -26,4 +26,4 @@ npm run dev
 feel free to check the project website at "localhost:3000" on the browser
 
 ## Contributor
-jennyy479
+[jennyy479](https://github.com/jennyy479/windbag_generator.git)
