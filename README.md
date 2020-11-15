@@ -23,7 +23,7 @@ after instal, run:
 ```bash
 npm run dev
 ```
-feel free to check the project website at "localhost:3000" on the browser 
+feel free to check the project website at "localhost:3000" on the browser
 
 ## Contributor
 jennyy479
